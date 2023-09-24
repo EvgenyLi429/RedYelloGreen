@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RedYelloGreen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="center" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jt0-UI-XRE">
-                                <rect key="frame" x="106.33333333333333" y="721" width="180.33333333333337" height="50"/>
+                                <rect key="frame" x="70" y="498" width="180" height="50"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="7RE-hn-kvn"/>
@@ -32,7 +32,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="sPn-3l-BIF">
-                                <rect key="frame" x="132.66666666666666" y="119" width="127.99999999999997" height="448"/>
+                                <rect key="frame" x="96" y="30" width="128" height="448"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IH8-JL-Ivm">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
@@ -60,11 +60,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jt0-UI-XRE" secondAttribute="trailing" constant="106.33333333333331" id="1bP-NI-azj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="jt0-UI-XRE" secondAttribute="trailing" constant="106.33333333333331" id="1bP-NI-azj"/>
                             <constraint firstItem="jt0-UI-XRE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EfI-FJ-b15"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jt0-UI-XRE" secondAttribute="bottom" constant="47" id="EfL-Sg-dlG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jt0-UI-XRE" secondAttribute="bottom" constant="20" id="EfL-Sg-dlG"/>
                             <constraint firstItem="sPn-3l-BIF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mAE-Pf-Buq"/>
-                            <constraint firstItem="sPn-3l-BIF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="mcS-rn-iA0"/>
+                            <constraint firstItem="sPn-3l-BIF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="mcS-rn-iA0"/>
                         </constraints>
                     </view>
                     <connections>
@@ -84,7 +84,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
