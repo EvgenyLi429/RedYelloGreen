@@ -28,13 +28,16 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped() {
         actionButton.setTitle("NEXT", for: .normal)
         
-        /*if no Lights aplha 1 switch red light
-         switch case:
-         a che esli sdelat 000 = vrubai 100
-         100 vrubai 010
-         010 vrubai
-         
-        */
+        if redLight.alpha == 1 {
+            redLight.alpha = 0.1
+            yellowLight.alpha = 1
+        } else if yellowLight.alpha == 1 {
+            yellowLight.alpha = 0.1
+            greenLight.alpha = 1
+        } else {
+            greenLight.alpha = 0.1
+            redLight.alpha = 1
+        }
         
     }
     
